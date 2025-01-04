@@ -1,0 +1,29 @@
+{
+  "name": "wasm-example",
+  "description": "Example app utilizing WASM library",
+  "components": [
+    {
+      "type": "text",
+      "label": "Enter your name",
+      "id": "name",
+      "placement": "input"
+    },
+    {
+      "type": "button",
+      "label": "Submit",
+      "id": "submit",
+      "placement": "action",
+      "config": {
+        "showEmpty": true
+      },
+      "codeRef": "actions/helloworld.js"
+    }
+  ],
+  "libs": [
+     {
+        "name": "helloworldwasm",
+        "type": "wasm",
+        "url": "lib/helloworld_wasm.wasm"
+     }
+  ]
+}
