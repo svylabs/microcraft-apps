@@ -1,0 +1,12 @@
+{
+    "name": "Microcraft apps",
+    "description": "A list of apps developed using microcraft framework",
+    "type": "list",
+    "apps": [
+        {
+            "name": "example-apps",
+            "description": "Example apps",
+            "path": "examples"
+        }
+    ]
+}

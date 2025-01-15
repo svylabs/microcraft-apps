@@ -6,7 +6,12 @@
       "type": "text",
       "label": "Enter your name",
       "id": "name",
-      "placement": "input"
+      "placement": "input",
+      "config": {
+         "showEmpty": true,
+         "enableQrCode": true,
+         "enableCopyIcon": true
+      }
     },
     {
       "type": "button",

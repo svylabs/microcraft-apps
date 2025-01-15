@@ -1,0 +1,17 @@
+{
+    "name": "Example Apps",
+    "description": "A list of sample apps",
+    "type": "list",
+    "apps": [
+        {
+            "name": "Quantum Algorithms",
+            "description": "Quantum cryptography algorithms with some logic implemented in rust and compiled to wasm",
+            "path": "quantum-algorithms"
+        },
+        {
+            "name": "wasm",
+            "description": "Example app utilizing WASM library",
+            "path": "wasm"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "Quantum Signatures",
+    "description": "A list of quantum signature algorithms",
+    "type": "list",
+    "apps": [
+        {
+            "name": "Lamport Signature",
+            "description": "Lamport signature",
+            "path": "lamport-signature"
+        }
+    ]
+}
